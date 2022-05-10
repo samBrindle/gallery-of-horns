@@ -2,6 +2,30 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Day 2 Estimates
+* Number and name of feature: #1 Display Images
+* Estimate of time needed to complete: 30 min
+* Start time: 2:00
+* Finish time: 2:11
+* Actual time needed to complete: 11 min
+
+* Number and name of feature: #2 Allow users to vote for their favorite beast
+* Estimate of time needed to complete: 1 hour
+* Start time: 2:12
+* Finish time: 2:47
+* Actual time needed to complete: 35 min
+
+* Number and name of feature: #3 Bootstrap
+* Estimate of time needed to complete: 1 hour
+* Start time: 2:50
+* Finish time: 3:14
+* Actual time needed to complete: 
+
+
+
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
