@@ -18,8 +18,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 * Number and name of feature: #3 Bootstrap
 * Estimate of time needed to complete: 1 hour
 * Start time: 2:50
-* Finish time: 3:14
-* Actual time needed to complete: 
+* Finish time: 5:29
+* Actual time needed to complete: 2hours 39min
 
 
 
