@@ -30,7 +30,7 @@ class HornedBeast extends React.Component {
             <Card.Text>
             {this.props.description}
             </Card.Text>
-            <Card.Text className='favCounters' onClick={this.favoriteImg}> ❤️ {this.state.favs} Favorite this!</Card.Text>
+            <Card.Text onClick={this.favoriteImg}> ❤️ {this.state.favs} Favorite this!</Card.Text>
         </Card.Body>
         </Card>
 
