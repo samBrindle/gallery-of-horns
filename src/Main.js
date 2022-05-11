@@ -1,6 +1,7 @@
 import React from 'react';
 import HornedBeast from './HornedBeast';
 import data from './data.json';
+import './Main.css';
 
 let beasts = []
 
@@ -18,9 +19,7 @@ class Main extends React.Component {
     render() {
         return (
             <main>
-                <article>
-                    {beasts}
-                </article>
+                {beasts}
             </main>
         )
     }
