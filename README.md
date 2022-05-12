@@ -25,8 +25,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 * Number and name of feature: #1 Display a Modal
 * Estimate of time needed to complete: 2 hour
 * Start time: 1:30
-* Finish time: 
-* Actual time needed to complete: 
+* Finish time: 5:15
+* Actual time needed to complete: 3 hours 45 min
 
 
 
