@@ -1,6 +1,7 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import Modal from 'react-bootstrap/Modal';
+import './SelectedBeast.css';
 
 // Justin Hammerly helped me!
 
@@ -12,7 +13,7 @@ class SelectedBeast extends React.Component {
             show={this.props.isModalDisplaying}
             onHide={this.props.closeModalHandler}
         >
-            <Modal.Body>
+            <Modal.Body id='modalCard'>
                 <Card style={{ width: '18rem' }} id='card'>
                 <Card.Body>
                     <Card.Title>{this.props.selectedBeast.title}</Card.Title>

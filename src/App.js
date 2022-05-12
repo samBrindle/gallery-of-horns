@@ -3,9 +3,7 @@ import Header from './Header.js';
 import Main from './Main.js';
 import Footer from './Footer.js';
 import data from './data.json';
-import Modal from 'react-bootstrap/Modal';
 import SelectedBeast from './SelectedBeast.js';
-// import '.App.css';
 
 class App extends React.Component {
   constructor(props) {
@@ -13,8 +11,37 @@ class App extends React.Component {
     this.state = {
       isModalDisplaying: false,
       selectedBeast: {},
+      howToSort: '',
     }
   }
+
+  // handlSubmit = (event) => {
+  //   event.preventDefault();
+
+  //   this.setState({
+  //     howToSort: event.target.selected.value
+  //   })
+  // }
+
+  // handleSelect = (event) => {
+  //   let selected = event.target.value;
+
+  //   if(selected === '1') {
+  //     let newData = data.filter( (horn) => horn.horns === 1);
+  //     this.setState({data: newData});
+  //   } else if(selected === '2') {
+  //     let newData = data.filter( (horn) => horn.horns === 2);
+  //     this.setState({data: newData});
+  //   } else if(selected === '3') {
+  //     let newData = data.filter( (horn) => horn.horns === 3);
+  //     this.setState({data: newData});
+  //   } else if(selected === 'More than 3') {
+  //     let newData = data.filter( (horn) => horn.horns > 3);
+  //     this.setState({data: newData});
+  //   } else {
+  //     this.setState({data: data})
+  //   }
+  // }
 
   openModalHandler = (name) => {
     let foundBeast = data.find(beast => {
@@ -37,7 +64,7 @@ class App extends React.Component {
     return (
       <>
         <Header />
-
+      
         <Main
           data={data}
           openModalHandler={this.openModalHandler}
@@ -50,16 +77,6 @@ class App extends React.Component {
           isModalDisplaying={this.state.isModalDisplaying}
           closeModalHandler={this.closeModalHandler}
         />
-
-        {/* <Modal
-          show={this.state.isModalDisplaying}
-          onHide={this.closeModalHandler}
-        >
-          <Modal.Title>{this.state.beastName} is a beast.</Modal.Title>
-          <Modal.Image>
-
-          </Modal.Image>
-        </Modal> */}
       </>
     );
   }
