@@ -16,6 +16,10 @@ class HornedBeast extends React.Component {
         })
     }
 
+    handleImgClick = () => {
+        this.props.openModalHandler(this.props.title);
+    }
+
     render () {
         return (
 
@@ -25,7 +29,9 @@ class HornedBeast extends React.Component {
             <Card.Img
                 src={this.props.imageURL}
                 alt={this.props.title}
-                title={this.props.title} >
+                title={this.props.title}
+                onClick={this.handleImgClick}
+            >
             </Card.Img>
             <Card.Text>
             {this.props.description}
